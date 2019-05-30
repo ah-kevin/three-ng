@@ -104,6 +104,14 @@
   dependencies:
     tslib "^1.9.0"
 
+"@angular/cdk@^7.0.0":
+  version "7.3.7"
+  resolved "https://registry.npm.taobao.org/@angular/cdk/download/@angular/cdk-7.3.7.tgz#ce1ad53ba04beb9c8e950acc5691ea0143753764"
+  dependencies:
+    tslib "^1.7.1"
+  optionalDependencies:
+    parse5 "^5.0.0"
+
 "@angular/cdk@^8.0.0":
   version "8.0.0"
   resolved "https://registry.npm.taobao.org/@angular/cdk/download/@angular/cdk-8.0.0.tgz#34ca95e71d71780b29b5ba07318c88c4577bdc25"
@@ -178,12 +186,6 @@
   version "8.0.0"
   resolved "https://registry.npm.taobao.org/@angular/language-service/download/@angular/language-service-8.0.0.tgz#1ee4ce5003897cad53597da28f4c94fe30519bfb"
 
-"@angular/material@^8.0.0":
-  version "8.0.0"
-  resolved "https://registry.npm.taobao.org/@angular/material/download/@angular/material-8.0.0.tgz#21dd15c318d1e29eb4d1a2dd888ddb027897eb49"
-  dependencies:
-    tslib "^1.7.1"
-
 "@angular/platform-browser-dynamic@~8.0.0":
   version "8.0.0"
   resolved "https://registry.npm.taobao.org/@angular/platform-browser-dynamic/download/@angular/platform-browser-dynamic-8.0.0.tgz#c15f394579ff44f3752033de58edc1afa5065d59"
@@ -200,6 +202,19 @@
   version "8.0.0"
   resolved "https://registry.npm.taobao.org/@angular/router/download/@angular/router-8.0.0.tgz#26094fd473e17441b0ae8af4883ec1b4ea3ad569"
   dependencies:
+    tslib "^1.9.0"
+
+"@ant-design/colors@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.npm.taobao.org/@ant-design/colors/download/@ant-design/colors-3.1.0.tgz#b7e2cc61a4e86d3d109494034acfb1222dacaa3c"
+  dependencies:
+    tinycolor2 "^1.4.1"
+
+"@ant-design/icons-angular@^2.0.2":
+  version "2.1.0"
+  resolved "https://registry.npm.taobao.org/@ant-design/icons-angular/download/@ant-design/icons-angular-2.1.0.tgz#12b0d02877b533a8271d561e71f1bab51dfbf1d1"
+  dependencies:
+    "@ant-design/colors" "^3.1.0"
     tslib "^1.9.0"
 
 "@babel/code-frame@^7.0.0":
@@ -1599,6 +1614,10 @@ dashdash@^1.12.0:
   resolved "https://registry.npm.taobao.org/dashdash/download/dashdash-1.14.1.tgz#853cfa0f7cbe2fed5de20326b8dd581035f6e2f0"
   dependencies:
     assert-plus "^1.0.0"
+
+date-fns@^1.29.0:
+  version "1.30.1"
+  resolved "https://registry.npm.taobao.org/date-fns/download/date-fns-1.30.1.tgz#2e71bf0b119153dbb4cc4e88d9ea5acfb50dc05c"
 
 date-format@^2.0.0:
   version "2.0.0"
@@ -3646,6 +3665,15 @@ neo-async@^2.5.0, neo-async@^2.6.0:
   version "2.6.1"
   resolved "https://registry.npm.taobao.org/neo-async/download/neo-async-2.6.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fneo-async%2Fdownload%2Fneo-async-2.6.1.tgz#ac27ada66167fa8849a6addd837f6b189ad2081c"
 
+ng-zorro-antd@^7.4.1:
+  version "7.4.1"
+  resolved "https://registry.npm.taobao.org/ng-zorro-antd/download/ng-zorro-antd-7.4.1.tgz#a87b88119c0a98f7208ed1b32690ce9bcba87df5"
+  dependencies:
+    "@angular/cdk" "^7.0.0"
+    "@ant-design/icons-angular" "^2.0.2"
+    date-fns "^1.29.0"
+    tslib "^1.9.0"
+
 nice-try@^1.0.4:
   version "1.0.5"
   resolved "https://registry.npm.taobao.org/nice-try/download/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
@@ -5381,6 +5409,10 @@ timers-browserify@^2.0.4:
   resolved "https://registry.npm.taobao.org/timers-browserify/download/timers-browserify-2.0.10.tgz#1d28e3d2aadf1d5a5996c4e9f95601cd053480ae"
   dependencies:
     setimmediate "^1.0.4"
+
+tinycolor2@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.npm.taobao.org/tinycolor2/download/tinycolor2-1.4.1.tgz#f4fad333447bc0b07d4dc8e9209d8f39a8ac77e8"
 
 tmp@0.0.30:
   version "0.0.30"
